@@ -1,0 +1,44 @@
+.Em{
+    font-style: italic; color: blue; font-size:larger;
+}
+
+.Jolly{
+    font-weight: bold; color: orange;
+}
+
+#Lorem{
+    background-color:thistle; color:purple;
+}
+
+a[href="https:/www.google.com"]{
+    color:thistle;
+}
+
+li[class]{
+    font-weight:bolder; color: red;
+}
+
+a:hover{
+    font-weight: bold; color:purple; text-decoration: none;
+}
+
+div::first-line{
+    font-size: larger;
+}
+
+article{
+    color: brown;
+}
+article>div{
+    font-style: italic;
+}
+
+*{
+    background-color:beige;
+}
+
+h1{
+    color: chocolate;
+    background-color: brown;
+    padding: 5px;
+}

@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    font: bold 48px 'Berkshire Swash', cursive;
+    background: brown;
+    color: wheat;
+    padding: 15px;
+    line-height: 2px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid black; */
+    float: left;
+    padding: 15px;
+}
+
+nav{
+    background-color: wheat;
+    /* padding: 15px; */
+    overflow: hidden;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+.titles{
+    background: whitesmoke;
+    font: bold 'Berkshire Swash', cursive;
+    padding: 15px;
+    margin: 2px;
+}
+
+.category{
+    background-color: coral;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+}

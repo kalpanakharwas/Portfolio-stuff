@@ -1,0 +1,19 @@
+button {
+    background-color: palevioletred;
+    color: whitesmoke;
+    padding: 25px 45px; 
+    border: 5px solid pink;
+    border-radius: 35px;
+    font-size: 25px;
+    position: relative;;
+    left: 45%;
+    top: 45vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: bisque;
+}

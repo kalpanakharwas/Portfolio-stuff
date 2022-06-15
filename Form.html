@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylingform.css">
+    <title>Sample Form</title>
+</head>
+<body>
+    <div class="whole">
+    <form action="">
+        <h1>Fun Form!</h1>
+        <h2>So, first.. a few necessary details:</h2>
+        <p>Your Name of Choice:<span style="color: red;">*</span> <input type="text" name="name" id="name" required></p>
+        <p>Email ID:<span style="color: red;">*</span> <input type="email" name="email_id" id="email_id" required></p>
+        <p>
+            <fieldset>
+            <legend>Your Gender:<span style="color: red;">*</span></legend>
+            Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required>
+            </fieldset>
+        </p>
+        <p>
+            Select Age:<span style="color: red;">*</span> 
+            <select name="age" id="age">
+                <option value="">--Select Age--</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+            </select>
+        </p>
+        <h2>And, now the fun form:</h2>
+        <p>Enter Your DOB:<span style="color: red;">*</span> <input type="date" name="dob" id="dob"></p>
+        <p>Favoriate Book:<span style="color: red;">*</span> <input type="text" name="fav_book" id="fav_book"></p>
+        <p>Current Wallpaper: <input type="file" name="wallpaper" id="wallpaper"></p>
+        <p>Enter CVV: (Kidding, kidding) <input type="password" name="cvv_joke" id="cvv_joke"></p>
+        <p>Favouriate Musician:<span style="color: red;">*</span> <input type="text" name="fav_singer" id="fav_singer"></p>
+        <input type="submit" value="Put it on!">
+        <p class="praise">Dang, you're a banger person!</p>
+        <p class="praise" style="text-align: right;"><span style="color: red;">*</span> marked fields are mandatory.</p>
+    </form>
+    </div>
+</body>
+</html>

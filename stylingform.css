@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.whole{
+    background-color:rgba(216, 191, 216, 0.253);
+    padding: 25px;
+    border: 2px solid thistle;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    font: bold 50px 'Quicksand', sans-serif;
+    color: rgb(180, 141, 180);
+}
+body{
+    font-family:'Quicksand', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: 2px;
+}
+body h2{
+    color: grey;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+textarea,
+fieldset,
+select{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid thistle;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+input[type="submit"] {
+    font: bold 12px 'Quicksand', sans-serif;
+    width: 100%;
+    padding: 5px;
+    background-color: thistle;
+    color: purple;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: palegreen;
+}
+.praise{
+    font: italic normal 12px 'Quicksand', sans-serif;
+}

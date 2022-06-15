@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox 3</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            font-weight: bold;
+        }
+        .Nav {
+            background-color: rgb(221, 177, 177);
+            color: whitesmoke;
+            border: 1px solid rgb(248, 182, 14);
+            width: 20%;
+            justify-content: flex-start;
+            padding: 5px;
+        }
+        .elements {
+            flex-direction: column;
+            width: 80%;
+        }
+        .ele-1 {
+            background-color: rgb(241, 147, 147);
+            color: whitesmoke;
+            height: 124px;
+            border: 1px solid rgb(248, 182, 14);
+            padding: 5px;
+        }
+        .ele-2 {
+            background-color: rgb(248, 198, 206);
+            color: whitesmoke;
+            height: 340px;
+            border: 1px solid rgb(248, 182, 14);
+            padding: 5px;
+        }
+        .ele-3 {
+            background-color: rgb(241, 147, 147);
+            color: whitesmoke;
+            height: 124px;
+            border: 1px solid rgb(248, 182, 14);
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Nav">Nav</div>
+        <div class="elements">
+            <div class="element ele-1">Header</div>
+            <div class="element ele-2">Article</div>
+            <div class="element ele-3">Footer</div>
+        </div>
+    </div>
+</body>
+</html>

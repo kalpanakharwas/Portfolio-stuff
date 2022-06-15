@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button>Magic!</button>
+
+    <!-- JavaScript below -->
+    
+    <script>
+        let namasteBtn = document.querySelector('button');
+        namasteBtn.addEventListener('click',showMsg);
+        
+        function showMsg(){
+            alert("Namaste, user!");
+        }
+    </script>
+
+    <!-- or, to take input from user -->
+
+    <!-- <script>
+        let hiBtn = document.querySelector('button');
+        hiBtn.addEventListener('click',inputMsg);
+        
+        function inputMsg(){
+            let value=prompt('Namaste, User! Say Hi back!');
+            hiBtn.textContent=value;
+        }
+    </script> -->
+
+    <!-- Note: Just like CSS, JS could be made a different file (with .js extension) and linked to the html file by putting the "scipt src" at the bottom of the "body" tag. -->
+</body>
+</html>

@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    color: goldenrod;
+    padding: 15px;
+    /* margin: 50px 0 0 50px; */
+    font: bold 32px 'Libre Baskerville', serif;
+}
+@media screen and (min-width: 414px) and (max-width: 896px) {
+    .img1 {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+    .img1 {
+        width: 48%;
+    }
+}
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+    .img1 {
+        width: 24%;
+    }
+}

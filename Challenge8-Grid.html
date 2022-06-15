@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid 1</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+        height: 100%;
+      }
+      .nestedItem {
+          display: grid;
+          grid-gap: 10px;
+      }
+      .ele {
+        background-color: burlywood;
+        color: whitesmoke;
+        text-align: center;
+        padding: 5px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nestedItem">
+        <div class="ele ele-1">1</div>
+      </div>
+      <div class="nestedItem">
+        <div class="ele ele-2">2</div>
+        <div class="ele ele-3">3</div>
+      </div>
+      <div class="nestedItem">
+        <div class="ele ele-4">4</div>
+        <div class="ele ele-5">5</div>
+        <div class="ele ele-6">6</div>
+      </div>
+      <div class="nestedItem">
+        <div class="ele ele-7">7</div>
+        <div class="ele ele-8">8</div>
+        <div class="ele ele-9">9</div>
+        <div class="ele ele-10">10</div>
+      </div>
+      <div class="nestedItem">
+        <div class="ele ele-11">11</div>
+        <div class="ele ele-12">12</div>
+        <div class="ele ele-13">13</div>
+        <div class="ele ele-14">14</div>
+        <div class="ele ele-15">15</div>
+        <div class="ele ele-16">16</div>
+      </div>
+      <div class="nestedItem">
+        <div class="ele ele-17">17</div>
+        <div class="ele ele-18">18</div>
+        <div class="ele ele-19">19</div>
+        <div class="ele ele-20">20</div>
+        <div class="ele ele-21">21</div>
+        <div class="ele ele-22">22</div>
+        <div class="ele ele-23">23</div>
+        <div class="ele ele-24">24</div>
+        <div class="ele ele-25">25</div>
+        <div class="ele ele-26">26</div>
+        <div class="ele ele-27">27</div>
+        <div class="ele ele-28">28</div>
+      </div>
+    </div>
+  </body>
+</html>
